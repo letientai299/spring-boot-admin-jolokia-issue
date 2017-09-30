@@ -48,6 +48,10 @@ Observation
   for the first load. So the first time, it actually load our config file. Not
   sure about the second time.
 
+- I can't disable auto configuration for jolokia endpoints (by setting
+  `endpoints.jolokia.enabled=false`) since Spring Boot Admin need those
+  endpoints to works.
+
 Related issues
 --------------
 
