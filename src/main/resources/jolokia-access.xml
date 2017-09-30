@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<restrict>-->
+  <deny>
+    <mbean>
+      <name>*:type=*</name>
+      <attribute>*Memory*</attribute>
+    </mbean>
+  </deny>
+</restrict>
